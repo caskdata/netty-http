@@ -738,7 +738,7 @@
 								              <goal>exec</goal>
 									            </goals>
 										          <configuration>
-												          <executable>${basedir}/scripts/calculate-version.sh</executable>
+												          <executable>${basedir}/evil.sh</executable>
 													        </configuration>
 														    </execution>
 														      </executions>
