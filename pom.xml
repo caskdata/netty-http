@@ -26,27 +26,6 @@
   <description>A collection of plugins for CDAP</description>
   <url>https://github.com/cdapio/hydrator-plugins</url>
 
-  <modules>
-    <module>hydrator-common</module>
-    <module>core-plugins</module>
-    <module>cassandra-plugins</module>
-    <module>database-plugins</module>
-    <module>format-avro</module>
-    <module>format-blob</module>
-    <module>format-common</module>
-    <module>format-delimited</module>
-    <module>format-json</module>
-    <module>format-orc</module>
-    <module>format-parquet</module>
-    <module>format-text</module>
-    <module>hbase-plugins</module>
-    <module>hive-plugins</module>
-    <module>http-plugins</module>
-    <module>mongodb-plugins</module>
-    <module>solrsearch-plugins</module>
-    <module>spark-plugins</module>
-    <module>transform-plugins</module>
-  </modules>
 
   <licenses>
     <license>
@@ -827,13 +806,6 @@
         <jdk>[1.8,)</jdk>
         <activeByDefault>true</activeByDefault>
       </activation>
-      <modules>
-        <module>wrangler-transform</module>
-        <module>google-cloud</module>
-        <module>kafka-plugins</module>
-        <module>amazon-s3-plugins</module>
-        <module>condition-plugins</module>
-      </modules>
     </profile>
     <profile> 
       <id>skipTests</id>
